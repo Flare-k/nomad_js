@@ -11,6 +11,6 @@ function getTime() {
 
 function init() {
     getTime();
-    setInterval(getTime, 1000); //1000은 1초이다. 밀리세컨트 단위.
+    setInterval(getTime, 1000); //1000은 1초이다. 밀리세컨드 단위.
 }
 init();
