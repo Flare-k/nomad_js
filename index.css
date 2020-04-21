@@ -2,12 +2,43 @@ body {
     background-color: #2c3e50;
 }
 
+h1 {
+    /*시간*/
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
+
+h4 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.js-toDoForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.js-toDoList {
+    position: absolute;
+    top: 400px;
+    left: 625px;
+    /*transform: translate(-50%, -50%);*/
+}
+
 .btn {
     cursor: pointer;
 }
 
 body {
-    color: #34495e;
+    color: #F5F6FA;
+    text-shadow: 2px 2px 2px gray;
 }
 
 .clicked {
@@ -21,6 +52,7 @@ body {
 
 .showing {
     display: block;
+    font-size: 40px;
 }
 
 @keyframes fadeIn {
